@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.BackstoryDef>
+    <defName>RaccSpyKid</defName>
+    <title>Young agent</title>
+	<titleShort>Kid-agent</titleShort>
+    <baseDescription>NAME was born in one of the many training facilities devoted to producing espionage and intelligence operatives. HIS formative years were occupied with many of the usual mundane types of education, but augmented with courses on observation and combat.</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	   <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+	    <li>
+        <defName>Growing</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef>
+    <defName>RaccToughkid</defName>
+    <title>Tough-kid</title>
+	<titleShort>Tough-kid</titleShort>
+    <baseDescription>NAME grew faster than HIS young peers, but HECAP was a 'gentle giant' of sorts, using HIS strength to protect HIS friends from bullies.</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+	<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+	    <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+	   <li>
+        <defName>Growing</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+       <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef>
+    <defName>RaccOpEng</defName>
+    <title>Operating engineer</title>
+	<titleShort>Op-Engineer</titleShort>
+    <baseDescription>NAME operated heavy machinery for construction. HECAP loved moving and shaping the terrain with HIS big dozer, or using a Blade-rig to carve out a level field for building. This also translated over to HIS hobbies, as HECAP also loved tilling the soil and creating HIS home garden.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>RaccFactoryW</defName>
+    <title>Factory worker</title>
+	<titleShort>Canner</titleShort>
+    <baseDescription>NAME worked in a cannery, working quality assurance on an assembly line. HECAP was vigilant in HIS duties, and had nimble hands, making sure no unsatisfactory product made it past HIS station.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>7</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>RaccEngineer</defName>
+    <title>Racc mechanic</title>
+	<titleShort>Greasehead</titleShort>
+    <baseDescription>NAME worked with HIS father, running an old Auto-repair shop in a dusty frontier town. How HECAP ended up here is a mystery...</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>RaccSpyTwo</defName>
+    <title>Racc agent</title>
+	<titleShort>R-Agent</titleShort>
+    <baseDescription>NAME was a loyal intelligence agent for HIS government, but HIS cover was blown by an enemy operation. Now HECAP is on 'early retirement', but HIS skills haven't dulled a bit.</baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+	   <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+	  	   <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>RaccCuriouskid</defName>
+    <title>Natural spy</title>
+	<titleShort>Spy-kid</titleShort>
+    <baseDescription>NAME was BORN to be a spy. HECAP spent HIS childhood playing spy games, and learning everything there was to know about espionage. HECAP idolized Jim Bundo, and Rock Flint, the spy-movie superstar characters.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>RaccSpacer</defName>
+    <title>Spacer Racc</title>
+    <titleShort>Rocket</titleShort>
+    <baseDescription>NAME grew up working on HIS parents' space hotel. It was an old abandoned orbital science facility that had been converted over to cater to a space-loving wealthy clientele. A sudden meteor shower brought it all to an abrupt end one day though - luckily enough, everyone made it to the escape pods...</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+      <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    </AlienRace.BackstoryDef>
+
+	    <AlienRace.BackstoryDef>
+    <defName>RaccSticky</defName>
+    <title>Stickyfingers</title>
+    <titleShort>Stickyfingers</titleShort>
+    <baseDescription>If something was missing, it was probably NAME. Ever since HECAP could crawl, HECAP was getting into everything, and secreting things away in all kinds of little cubbyholes. A very sneaky and clever one here.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+      <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+        <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+	   <workDisables>
+        <li>Firefighting</li>
+	   </workDisables>
+    </AlienRace.BackstoryDef>
+
+
+    <AlienRace.BackstoryDef>
+    <defName>RaccColonyKid</defName>
+    <title>Racc colonykid</title>
+    <titleShort>Kid</titleShort>
+    <baseDescription>NAME was born in a small trading post on the outer rims. HECAP had to learn to carry HIS weight and keep the colony running from an early age.</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<maleCommonality>80</maleCommonality>
+	<femaleCommonality>80</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>RaccCoreKid</defName>
+    <title>Racc corekid</title>
+    <titleShort>Corekid</titleShort>
+    <baseDescription>NAME was born on one of the core ecumenopolis in the Xenn Empire, not entirely uncommon, as the races have been long-time allies. HECAP grew up in one of the many arcologies, spending much of HIS time in the upper-level arboretums playing with friends.</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+		<maleCommonality>90</maleCommonality>
+	<femaleCommonality>90</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Growing</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+      <AlienRace.BackstoryDef>
+
+    <defName>RaccDigKid</defName>
+    <title>Sandbox kid</title>
+    <titleShort>Sand-kid</titleShort>
+    <baseDescription>NAME was always playing in the sandbox, or making sandcastles at the beach. This grew into a love for building and gardening, that HIS parents encouraged.</baseDescription>
+	<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Growing</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+  <!-- ====== Adult Stories - not porn ====== -->
+
+
+
+    <AlienRace.BackstoryDef>
+    <defName>RaccGunmaker</defName>
+    <title>Gunsmith</title>
+    <titleShort>Gunsmith</titleShort>
+    <baseDescription>NAME was interested in guns and firearms of all kinds from a young age. HIS interest developed into a passion, and HECAP became one of the foremost independant weapons designers of the allied races.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>9</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+      <AlienRace.BackstoryDef>
+    <defName>RaccSexSlave</defName>
+    <title>Consort</title>
+    <titleShort>Consort</titleShort>
+    <baseDescription>NAME was captured by slavers and sold to a lecherous tycoon. HECAP was forced to tend the gardens, and do all sorts of lewd acts for HIS 'owner', but grew accustomed to the otherwise lavish environment, and spoiled as far as labor is concerned.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>10</maleCommonality>
+  	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <workDisables>
+     <li>Hauling</li>
+	   <li>Cleaning</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>5</amount>
+        </li>
+	     <li>
+        <defName>Growing</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+      <AlienRace.BackstoryDef>
+    <defName>RaccLasminer</defName>
+    <title>Racc lasminer</title>
+    <titleShort>Lasminer</titleShort>
+    <baseDescription>NAME operated a laser-mining rig at an advanced asteroidal mining station, and occasionally operated manual equipment when they'd pumped atmosphere into a particularly rich shaft. HECAP developed a strong back and keen eye with HIS laser-drill.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>RaccBiogen</defName>
+    <title>Geneticist</title>
+    <titleShort>Geneticist</titleShort>
+    <baseDescription>NAME is a bio-Intellectualer for the Xenn Empire. HECAP has dedicated HIS life to unravelling the genome and improving HIS race, and the quality of life for the Alliance... FOR SCIENCE!!!</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>RaccHunterBS</defName>
+    <title>Racc hunter</title>
+    <titleShort>Hunter</titleShort>
+    <baseDescription>NAME is a professional hunter. Sometimes called to put down manhunters, or guide rich dentists on Safari, HIS skills as a tracker are only matched by HIS skill at handling.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>25</maleCommonality>
+	<femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+  <AlienRace.BackstoryDef>
+    <defName>RaccFarmer</defName>
+    <title>Turbofarmer</title>
+    <titleShort>Turbofarmer</titleShort>
+    <baseDescription>NAME managed a ranch that grew large quantities of feed-stock for Xenguana. HECAP was on HIS way to a big ag-conference on the nearby moon, when pirates attacked the shuttle! Luckily, the law intervened, but not before the shuttle had taken serious damage, forcing everyone to abandon ship and make for the escape pods...</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>RaccTrailblazer</defName>
+    <title>Trail blazer</title>
+    <titleShort>Blazer</titleShort>
+    <baseDescription>NAME is at the forefront of the effort to expand the territories controlled by the Alliance - rushing headlong into the unknown to colonize uncharted worlds and eke out a living.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+     <AlienRace.BackstoryDef>
+    <defName>RaccResearch</defName>
+    <title>Intel research</title>
+    <titleShort>Research</titleShort>
+    <baseDescription>NAME was head of research in the headquarters for the Racc Intelligence Service, investigating and untangling the webs of lies surrounding enemy agents. HECAP even helped to uncover an enemy mole, (not a gofer) who was compromising agents in the field.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>7</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>RaccDoctor</defName>
+    <title>Frontier doctor</title>
+    <titleShort>Doc</titleShort>
+    <baseDescription>NAME has taken an oath to devote HIS life to healing others. HECAP has taken HIS mission out to the furthest reaches and the dustiest outposts. You know... places like this...</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>25</maleCommonality>
+	<femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+	 <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>RaccChef</defName>
+    <title>Racc line-cook</title>
+    <titleShort>Line-cook</titleShort>
+    <baseDescription>NAME is a line-cook, a cook working under a master chef in a big kitchen. HECAP has helped prepare meals for some of the highest functionaries in Racc and Xenn society.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+	 <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>RaccArchivist</defName>
+    <title>Racc archivist</title>
+    <titleShort>Alpha</titleShort>
+    <baseDescription>NAME bears the burden of leadership among HIS community. Racc are a curious and somewhat furtive race, this leads them to collectively horde knowledge. So much so, that their Leaders are called "Archivists", and they serve this function as well as governmental administration. Among HIS peers, NAME is that leader.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+	 <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>PrivateRacc</defName>
+    <title>Courier agent</title>
+    <titleShort>Courier</titleShort>
+    <baseDescription>NAME is a low-ranking courier agent for the Racc intelligence. It is HIS duty to deliver small items and packages, or information, wherever HIS superiors order.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>MajorRacc</defName>
+    <title>Racc scalphunter</title>
+    <titleShort>Scalphunter</titleShort>
+    <baseDescription>NAME is a 'scalphunter' for racc intelligence. HECAP does the 'dirty work' - spotting, seducing, and 'disposing of' enemy agents. Charming, but deadly.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+       <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>RaccSpacerAdult</defName>
+    <title>Racc space-trader</title>
+    <titleShort>R-Spacer</titleShort>
+    <baseDescription>NAME was a free-trader, roving the Racc Empire and it's neighbors space searching for deals and opportunities for profit. Until now, HE was flying a ship, making deals with colonies like these... I wonder what happened?</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+			<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+      <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>10</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    </AlienRace.BackstoryDef>
+
+	  <AlienRace.BackstoryDef>
+    <defName>RaccRocket</defName>
+    <title>Rocketeer</title>
+    <titleShort>Rocket</titleShort>
+    <baseDescription>NAME was one of an experimental corps of rocket-troops. The troops performed well, but problems with the rocket cooling systems, and more than a few scorched tails, led to the abandonment of the project, but HECAP will never forget the feeling of flying with nothing but a self-stabilizing rocket strapped to HIS back!</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>28</maleCommonality>
+	<femaleCommonality>28</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>RaccNinja</defName>
+    <title>Racc ninja</title>
+    <titleShort>Ninja</titleShort>
+    <baseDescription>NAME is among the few master practitioners of ninjitsu, and various forms of budo - and has used these skills in loyal service to HIS lord for many years.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>28</maleCommonality>
+  	<femaleCommonality>28</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+	    <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+  	  <AlienRace.BackstoryDef>
+    <defName>RaccTerminator</defName>
+    <title>Exterminator</title>
+    <titleShort>Exterminator</titleShort>
+    <baseDescription>NAME HAAATES bugs! HECAP has made a living out of killing as many bugs as HECAP can! Infestation? LEMME AT EM!</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>10</maleCommonality>
+	<femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>9</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  	  <AlienRace.BackstoryDef>
+    <defName>RaccSpyBS</defName>
+    <title>Retired spymaster</title>
+    <titleShort>Control</titleShort>
+    <baseDescription>NAME was the head director, 'control', for the racc intelligence agency. What strange chain of events led this mysterious figure here?..... I wonder...</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>10</maleCommonality>
+	<femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  	  <AlienRace.BackstoryDef>
+    <defName>RaccTXRanger</defName>
+    <title>Forest ranger</title>
+    <titleShort>Forester</titleShort>
+    <baseDescription>NAME was a forest ranger in the high mountains. HECAP loves the smell of fresh mountain air, and a big pine forest. Over the years, HECAP has gained a good skill for scouting, and dealing with wild animals, not to mention havng to fend off poachers.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>8</maleCommonality>
+	<femaleCommonality>8</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+	   <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+      <AlienRace.BackstoryDef>
+    <defName>RaccNavyCook</defName>
+    <title>Famous theif</title>
+    <titleShort>Theif</titleShort>
+    <baseDescription>NAME was a skilled catbuglar, pinching valuables from the homes of the rich. HECAP loved to pick targets who were particularly vain or arrogant, to strip them of a little pride, as well as their money. Somehow, while evading the law, HECAP ended up here...</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>25</maleCommonality>
+	<femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+	  	<li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>RaccProgrammer</defName>
+    <title>Racc programmer</title>
+    <titleShort>Programmer</titleShort>
+    <baseDescription>NAME has spent many sleepless nights hammering away at a console (not literally with a hammer - though sometimes HECAP wanted to). This allowed HIM to fund HIS second passion... Firearms. HECAP would vent HIS frustrations at the shooting range as often as HECAP could.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+</Defs>

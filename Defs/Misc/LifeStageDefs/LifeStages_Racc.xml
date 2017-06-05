@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <LifeStageDef>
+    <defName>BabyStageRacc</defName>
+    <label>baby</label>
+    <bodySizeFactor>0.2</bodySizeFactor>
+    <healthScaleFactor>0.2</healthScaleFactor>
+    <hungerRateFactor>0.2</hungerRateFactor>
+    <marketValueFactor>0.5</marketValueFactor>
+    <statFactors>
+      <MoveSpeed>0.2</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>ChildStageRacc</defName>
+    <label>child</label>
+    <bodySizeFactor>0.5</bodySizeFactor>
+    <healthScaleFactor>0.5</healthScaleFactor>
+    <hungerRateFactor>0.6</hungerRateFactor>
+    <marketValueFactor>0.9</marketValueFactor>
+    <statFactors>
+      <MoveSpeed>0.65</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>TeenStageRacc</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>AdultStageRacc</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>ElderStageRacc</defName>
+    <label>elder</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>AncestorStageRacc</defName>
+    <label>ancestor</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
+
+</Defs>

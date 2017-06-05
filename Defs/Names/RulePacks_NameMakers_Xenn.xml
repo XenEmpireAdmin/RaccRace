@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+<RulePackDef>
+    <defName>NamerPersonRaccMale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[RaccMfirst] [Racclast]</li>
+        <li>name->[badassrx] [Raccfirst]</li>
+        <li>name->[RaccMfirst] '[badassrx]' [Racclast]</li>
+        <li>name->[badassrx] '[nick]' [Racclast]</li>
+        <li>name->[RaccMfirst] '[nick]' [Racclast]</li>
+        <li>name->[RaccMfirst] [badassrx]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>RaccMfirst</keyword>
+          <path>Racc_Names/RaccM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Racclast</keyword>
+          <path>Racc_Names/Racclast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassrx</keyword>
+          <path>Racc_Names/Concepts_Rac</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nick</keyword>
+          <path>Racc_Names/Nicks</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerPersonRaccFemale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[RaccFfirst] [Racclast]</li>
+        <li>name->[badassrx] [Raccfirst]</li>
+        <li>name->[RaccFfirst] '[badassrx]' [Racclast]</li>
+        <li>name->[RaccFfirst] '[nick]' [Racclast]</li>
+        <li>name->[RaccFfirst] [badassrx]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>RaccFfirst</keyword>
+          <path>Racc_Names/RaccF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Racclast</keyword>
+          <path>Racc_Names/Racclast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassrx</keyword>
+          <path>Racc_Names/Concepts_Rac</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nick</keyword>
+          <path>Racc_Names/Nicks</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</NameMakerDefs>

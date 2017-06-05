@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="RaccFactionBase">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef Parent="RaccFactionBase">
+    <defName>RaccPlayerColony</defName>
+    <label>Racc Agency</label>
+    <description>Your own Racc Intelligence Agency.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Racc</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategory>RaccBackstory</backstoryCategory>
+    <homeIconPath>World/RaccBaseIcon</homeIconPath>
+    <expandingIconTexture>World/RaccBaseIcon</expandingIconTexture>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>RaccHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  
+    <FactionDef Parent="RaccFactionBase">
+    <defName>RaccPlayerColonyTribal</defName>
+    <label>Racc Agency Tribal-like</label>
+    <description>Racc semi-tribal start. (No research done, but high tech level)</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Racc</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategory>RaccBackstory</backstoryCategory>
+    <homeIconPath>World/RaccBaseIcon</homeIconPath>
+    <expandingIconTexture>World/RaccBaseIcon</expandingIconTexture>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>RaccHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+
+</Defs>

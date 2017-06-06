@@ -9,13 +9,13 @@
     <workSkillLearnFactor>16</workSkillLearnFactor>
   </RecipeDef>
 
-  <RecipeDef Name="SurgeryXTails" ParentName="SurgeryFlesh" Abstract="True">
+  <RecipeDef Name="SurgeryRTails" ParentName="SurgeryFlesh" Abstract="True">
   <recipeUsers>
   <li>Alien_Racc</li>
   </recipeUsers>
   </RecipeDef>
   
- <RecipeDef ParentName="SurgeryXTails">
+ <RecipeDef ParentName="SurgeryRTails">
       <defName>InstallRaccTail</defName>
       <label>install Racc tail</label>
       <description>Replace missing or damaged tail.</description>
@@ -34,7 +34,7 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>XTail</li>
+                  <li>RTail</li>
                </thingDefs>
             </filter>
             <count>1</count>
@@ -45,7 +45,7 @@
             <li>Medicine</li>
          </categories>
          <thingDefs>
-            <li>XTail</li>
+            <li>RTail</li>
          </thingDefs>
       </fixedIngredientFilter>
       <appliedOnFixedBodyParts>
@@ -53,7 +53,7 @@
       </appliedOnFixedBodyParts>
    </RecipeDef>
 
- <RecipeDef ParentName="SurgeryXTails">
+ <RecipeDef ParentName="SurgeryRTails">
       <defName>RXInstallClothTail</defName>
       <label>install cloth tail</label>
       <description>Installs cloth tail.</description>
@@ -92,7 +92,7 @@
       <addsHediff>ClothTail</addsHediff>
    </RecipeDef>
 
- <RecipeDef ParentName="SurgeryXTails">
+ <RecipeDef ParentName="SurgeryRTails">
       <defName>InstallBionicRaccTail</defName>
       <label>install bionic tail</label>
       <description>Installs bionic tail.</description>

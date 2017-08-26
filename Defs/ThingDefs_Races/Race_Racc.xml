@@ -40,16 +40,16 @@
                 <li>
                     <defname>NaturalMood</defname>
                     <degree>2</degree>
-                    <chance>50</chance>
+                    <chance>20</chance>
                 </li>
                 <li>
                     <defname>Beauty</defname>
                     <degree>2</degree>
-                    <chance>50</chance>
+                    <chance>20</chance>
                 </li>
                 <li>
                     <defname>Kind</defname>
-					<chance>50</chance>
+					<chance>10</chance>
                 </li>
             </ForcedRaceTraitEntries>
             <alienPartGenerator>
@@ -57,8 +57,10 @@
                     <li>Average_Normal</li>
                 </aliencrowntypes>
                 <alienbodytypes>
+                <li>Thin</li>
+                <li>Male</li>
+                <li>Female</li>
                 </alienbodytypes>
-				<TailBodyPart>Tail</TailBodyPart>
                 <alienskincolorgen Class="ColorGenerator_Options">
                     <options>
              <li>
@@ -160,7 +162,46 @@
 			         </li>
                 </options>
             </alienskinsecondcolorgen>
-                <UseSkinColorForTail>true</UseSkinColorForTail>
+            <bodyAddons>
+            <li>
+				<path>Things/Racc/Tails/Rtail</path>
+                <bodyPart>Tail</bodyPart>
+                <UseSkinColor>true</UseSkinColor>
+                <inFrontOfBody>false</inFrontOfBody>
+                <offsets>
+                <front>
+                                    <bodyTypes>
+                                    <Male>(0,-0.22)</Male>
+                                    <Female>(0,-0.22)</Female>
+                                    <Fat>(0,-0.22)</Fat>
+                                    <Thin>(0,-0.22)</Thin>
+                                    </bodyTypes>
+                </front>
+
+                <back>
+                                    <bodyTypes>
+                                    <Male>(0,-0.25)</Male>
+                                    <Female>(0,-0.25)</Female>
+                                    <Fat>(0,-0.25)</Fat>
+                                    <Thin>(0,-0.25)</Thin>
+                                    </bodyTypes>
+                </back>
+
+                <side>
+                                    <bodyTypes>
+                                    <Male>(0,-0.22)</Male>
+                                    <Female>(0,-0.22)</Female>
+                                    <Fat>(0.02,-0.22)</Fat>
+                                    <Thin>(0,-0.22)</Thin>
+                                    </bodyTypes>
+                </side>
+                </offsets>
+                <hediffGraphics>
+                <BionicRaccTail>Things/Racc/Tails/TailRBionic</BionicRaccTail>
+                </hediffGraphics>
+                </li>
+            </bodyAddons>
+
             </alienPartGenerator>
 			<chemicalSettings>	
 		    </chemicalSettings>
@@ -169,7 +210,6 @@
             <li>
                 <head>Things/Racc/Heads/</head>
                 <body>Things/Racc/Bodies/</body>
-				<Tail>Things/Racc/Tails/Rtail</Tail>
             </li>
         </graphicPaths>
         <hairSettings>

@@ -16,7 +16,7 @@
    </ThingDef>
 
    <ThingDef ParentName="BodyPartNaturalBase">
-      <defName>XRTail</defName>
+      <defName>RTail</defName>
       <label>tail</label>
       <description>A Racc tail.</description>
       <graphicData>

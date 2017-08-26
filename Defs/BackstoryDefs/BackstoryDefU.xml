@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.BackstoryDef>
+    <defName>RaccMulderKid</defName>
+    <title>Spooky kid</title>
+	<titleShort>Spooky</titleShort>
+    <baseDescription>NAME grew up in a relatively average home, with HIS father working for the government. HIS whole world changed one night, when HIS sister was carried away by a strange light...</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+	  <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>RaccMulderAdult</defName>
+    <title>Federal investigator</title>
+	<titleShort>FBI</titleShort>
+    <baseDescription>The mysterious disappearance of Mulder's sister and his ensuing search for her became the consuming drive of his life. HECAP graduated from university with a degree in psychology, and joined the Federal Investigation service. After garnering some fame as an outstanding criminal psychologist and profiler, HECAP discovered an obscure section dealing with a mass of strange unexplained and unsolved case files. HECAP pored over these cases in his spare time, becoming obsessed with them. Dana Scully, an instructor at the Academy's Forensic Science Research and Training Center, was partnered with him for the purpose of applying scientific reasoning to Mulder's work and theories.
+    </baseDescription>
+    <slot>Adulthood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+	  <li>
+        <defName>Shooting</defName>
+        <amount>8</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
+
+
+<AlienRace.BackstoryDef>
+    <defName>RaccSmileyKid</defName>
+    <title>Language student</title>
+	<titleShort>LinguistKid</titleShort>
+    <baseDescription>Smiley was born to middle class parents in the south of a large island nation, and attended a minor public school and an antiquated college of little distinction, studying modern languages with a particular focus on Baroque German literature. While considering post-graduate study in that field, he was recruited into the Intelligence Agencies by his tutor Jebedee.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+	    <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>RaccSmileyAdult</defName>
+    <title>Head of intelligence</title>
+	<titleShort>Intel-Head</titleShort>
+    <baseDescription>NAME became the head of intelligence after uncovering an enemy mole placed at the top ranks of the intelligence agency. After a long and costly 'secret war', he was able to turn his opposite in the enemy's intelligence agency.
+    </baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>8</amount>
+      </li>
+	   <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+	  	   <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
+
+<AlienRace.BackstoryDef>
+    <defName>RaccCSKid</defName>
+    <title>Young astrophysicist</title>
+	<titleShort>Astrokid</titleShort>
+    <baseDescription>A young NAME was inspired by a visit to the World's Fair. Seeing all the amazing applications and explorations of science left a deep sense of awe and wonder at the mechanics of the universe. This started HIS path to astronomy and astrophysics.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>8</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>RaccSaganAdult</defName>
+    <title>Astrophysics professor</title>
+	<titleShort>Professor</titleShort>
+    <baseDescription>Over time, NAME's passion for scientific discovery pushed HIM to write a multitude of books and other media devoted to astronomy and astrophysics. How did HECAP end up here?... 
+    </baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>8</amount>
+      </li>
+	   <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+	  	   <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
+
+<AlienRace.BackstoryDef>
+    <defName>RaccHanzoKid</defName>
+    <title>Soldier trainee</title>
+	<titleShort>Trainee</titleShort>
+    <baseDescription>NAME has spent most of HIS youth training in an elite military academy. Alongside scholastics, the academy has an extensive military training regimen. Many intelligence agents and brilliant tacticians are among it's graduates.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>RaccHanzo</defName>
+    <title>Ninja tactician</title>
+	<titleShort>Tactician</titleShort>
+    <baseDescription>NAME established a reputation as a brilliant tactician and formidable warrior after planning brilliant defenses against a large bandit clan, and performing several escorts and daring rescues of government officials.
+    </baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+        <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+	  	   <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+</Defs>

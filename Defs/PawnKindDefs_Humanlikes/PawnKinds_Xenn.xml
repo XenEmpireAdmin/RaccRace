@@ -84,8 +84,8 @@
 
   <PawnKindDef ParentName="RaccCivBase">
     <defName>RaccArchivist</defName>
-    <label>pack leader</label>
-    <labelPlural>pack leaders</labelPlural>
+    <label>archivist</label>
+    <labelPlural>archivists</labelPlural>
     <factionLeader>true</factionLeader>
 	<minGenerationAge>39</minGenerationAge>
 	<maxGenerationAge>900</maxGenerationAge>
@@ -208,7 +208,7 @@
   
   <PawnKindDef ParentName="RaccMilBase">
     <defName>RaccTheif</defName>
-    <label>recruit</label>
+    <label>theif</label>
     <combatPower>70</combatPower>
   </PawnKindDef>
 
@@ -274,7 +274,7 @@
 
   <PawnKindDef ParentName="RaccMilBase">
     <defName>RaccSpy</defName>
-    <label>commando</label>
+    <label>Spy</label>
     <combatPower>135</combatPower>
     <minGenerationAge>20</minGenerationAge>
     <gearHealthRange>
@@ -329,7 +329,7 @@
   
   <PawnKindDef ParentName="RaccMilBase">
      <defName>RaccNinja</defName>
-    <label>elite commando</label>
+    <label>ninja</label>
     <combatPower>220</combatPower>
     <minGenerationAge>26</minGenerationAge>
     <gearHealthRange>

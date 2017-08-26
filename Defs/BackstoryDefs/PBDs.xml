@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PawnBioDefs>
+<AlienRace.PawnBioDef>
+    <defName>RBio_Mulder</defName>
+    <childhoodDef>RaccMulderKid</childhoodDef> 
+    <adulthoodDef>RaccMulderAdult</adulthoodDef>
+    <gender>Male</gender>
+    <name>
+      <first>Fox</first>
+      <last>Mulder</last>
+      <nick>Mulder</nick>
+    </name>
+    <validRaces>
+          <li>Alien_Racc</li>
+    </validRaces>
+    <factionLeader>false</factionLeader>
+</AlienRace.PawnBioDef>
+
+<AlienRace.PawnBioDef>
+    <defName>RBio_Smiley</defName>
+    <childhoodDef>RaccSmileyKid</childhoodDef> 
+    <adulthoodDef>RaccSmileyAdult</adulthoodDef>
+    <gender>Male</gender>
+    <name>
+      <first>George</first>
+      <last>Smiley</last>
+      <nick>Smiley</nick>
+    </name>
+    <validRaces>
+          <li>Alien_Racc</li>
+    </validRaces>
+    <factionLeader>false</factionLeader>
+</AlienRace.PawnBioDef>
+
+<AlienRace.PawnBioDef>
+    <defName>RaccSagan_X</defName>
+    <childhoodDef>RaccCSKid</childhoodDef> 
+    <adulthoodDef>RaccSaganAdult</adulthoodDef>
+    <gender>Male</gender>
+    <name>
+      <first>Carl</first>
+      <last>Sagan</last>
+      <nick>Sagan</nick>
+    </name>
+    <validRaces>
+          <li>Alien_Racc</li>
+    </validRaces>
+    <factionLeader>false</factionLeader>
+</AlienRace.PawnBioDef>
+
+
+<AlienRace.PawnBioDef>
+    <defName>RaccHanzo_X</defName>
+    <childhoodDef>RaccHanzoKid</childhoodDef> 
+    <adulthoodDef>RaccHanzo</adulthoodDef>
+    <gender>Male</gender>
+    <name>
+      <first>Hattori</first>
+      <last>Hanzo</last>
+      <nick>Hanzo</nick>
+    </name>
+    <validRaces>
+          <li>Alien_Racc</li>
+    </validRaces>
+    <factionLeader>false</factionLeader>
+</AlienRace.PawnBioDef>
+</PawnBioDefs>

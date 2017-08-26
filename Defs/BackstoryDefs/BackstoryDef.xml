@@ -44,7 +44,6 @@
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
-	<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 	<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
     <spawnCategories>
@@ -223,7 +222,7 @@
 
     <AlienRace.BackstoryDef>
     <defName>RaccSpacer</defName>
-    <title>Spacer Racc</title>
+    <title>Racc spacer</title>
     <titleShort>Rocket</titleShort>
     <baseDescription>NAME grew up working on HIS parents' space hotel. It was an old abandoned orbital science facility that had been converted over to cater to a space-loving wealthy clientele. A sudden meteor shower brought it all to an abrupt end one day though - luckily enough, everyone made it to the escape pods...</baseDescription>
     <slot>Childhood</slot>
@@ -294,7 +293,6 @@
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
-	<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<maleCommonality>80</maleCommonality>
 	<femaleCommonality>80</femaleCommonality>
     <skillGains>
@@ -365,6 +363,112 @@
     </spawnCategories>
   </AlienRace.BackstoryDef>
 
+  <AlienRace.BackstoryDef>
+    <defName>RaccCityKid</defName>
+    <title>City kid</title>
+    <titleShort>Urb-kid</titleShort>
+    <baseDescription>NAME grew up in one of the megalopolis centers on a dense Urbworld. After school, HECAP would head off to one of the metro malls or arcades. Growing up in a concrete landscape, left HIM a bit lacking when it comes to plants and animals.</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<maleCommonality>80</maleCommonality>
+	<femaleCommonality>80</femaleCommonality>
+    <skillGains>
+          <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>-1</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>RaccCountryKid</defName>
+    <title>Farm kid</title>
+    <titleShort>Farm-kid</titleShort>
+    <baseDescription>NAME grew up in an ag region, supporting the major metropolises food supply on HIS Rimworld. Living so far from other young people made social life difficult, but NAME made the best of it - though HECAP ended up a bit shy.</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<maleCommonality>80</maleCommonality>
+	<femaleCommonality>80</femaleCommonality>
+    <skillGains>
+          <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>5</amount>
+      </li>
+          <li>
+        <defName>Animals</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>RaccGeniusKid</defName>
+    <title>Young genius</title>
+    <titleShort>Prodigy</titleShort>
+    <baseDescription>NAME loved tinkering with HIS toys, taking them apart and reassembling them - programming simple little computer programs from HIS elementary school textbooks - or simply reading any piece of information HECAP can get HIS hands on.</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<maleCommonality>80</maleCommonality>
+	<femaleCommonality>80</femaleCommonality>
+    <skillGains>
+          <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>5</amount>
+      </li>
+         <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
 
   <!-- ====== Adult Stories - not porn ====== -->
 
@@ -955,4 +1059,57 @@
     </spawnCategories>
   </AlienRace.BackstoryDef>
 
+
+    <AlienRace.BackstoryDef>
+    <defName>Raccmechw</defName>
+    <title>Mech pilot</title>
+    <titleShort>Mechwarrior</titleShort>
+    <baseDescription>NAME is a Battlemech pilot, a Mech Warrior. Operating these massive walking tanks, MechWarriors serve in the armies of the Great Houses or as part of a Mercenary unit, fight in the gladiatorial arenas of Solaris VII, or operate on the fringes of society as pirates and bandits. Among the Clans, a MechWarrior can either be trueborn or freeborn, with the former enjoying greater social standing.
+    The jumpship HE was on had a jump-drive failure, casting them off into the unknown. After waiting several weeks for rescue, with supplies running low, the crew decided to use the escape pods at the nearest habitable planet...
+    </baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>8</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>RaccXRestar</defName>
+    <title>Restaurateur</title>
+    <titleShort>Restaurateur</titleShort>
+    <baseDescription>NAME owned and operated a chain of successful high-class urbworld restaurants. Unfortunately, they didn't survive the franchise wars against Taco Gong, and HECAP was forced to flee the planet.</baseDescription>
+  	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeGlobal>Fat</bodyTypeGlobal>
+  <maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
 </Defs>

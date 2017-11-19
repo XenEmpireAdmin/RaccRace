@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ThingDefs>
+<Defs>
 
    <ThingDef ParentName="BodyPartNaturalBase">
       <defName>Tail</defName>
@@ -64,4 +64,4 @@
   </ThingDef>
   
   
-</ThingDefs>
+</Defs>

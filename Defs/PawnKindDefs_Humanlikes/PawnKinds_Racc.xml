@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
   <!-- ============================ Racc Base ========================== -->
 
@@ -384,4 +384,4 @@
   </PawnKindDef>
   
 
-</PawnKindDefs>
+</Defs>

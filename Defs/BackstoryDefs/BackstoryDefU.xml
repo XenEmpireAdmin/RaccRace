@@ -259,4 +259,72 @@
     </skillGains>
 </AlienRace.BackstoryDef>
 
+<AlienRace.BackstoryDef>
+    <defName>RaccPhelpsKid</defName>
+    <title>Officer candidate</title>
+	<titleShort>OCS</titleShort>
+    <baseDescription>NAME went through Offcer training, to serve as a commanding officer in the ALIENRACE military. HECAP was a little too gung-ho, costing HIM troops, and some of the respect of HIS command.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>RaccPhelps</defName>
+    <title>Honest cop</title>
+	<titleShort>Good cop</titleShort>
+    <baseDescription>NAME was motivated to make amends for mistakes in the past, taking up a position in Law enforcement. HECAP was responsible for closing several high-profile murder cases, and exposing a corrupt city government racket.
+    </baseDescription>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>RaccBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+        <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+	  	   <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
 </Defs>

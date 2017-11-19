@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
   <ThingDef Name="BaseRACCGun" Abstract="True">
@@ -96,7 +96,7 @@
       <texPath>Things/Guns/PPK</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <MarketValue>325</MarketValue>
       <Mass>1</Mass>
@@ -119,12 +119,31 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_RPPK</projectileDef>
+        <defaultProjectile>Bullet_RPPK</defaultProjectile>
         <warmupTime>1.20</warmupTime>
         <range>24</range>
         <soundCast>Xen_SD</soundCast>
       </li>
     </verbs>
+        <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

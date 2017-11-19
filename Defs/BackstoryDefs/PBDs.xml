@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<PawnBioDefs>
+<Defs>
 <AlienRace.PawnBioDef>
     <defName>RBio_Mulder</defName>
     <childhoodDef>RaccMulderKid</childhoodDef> 
@@ -64,4 +64,20 @@
     </validRaces>
     <factionLeader>false</factionLeader>
 </AlienRace.PawnBioDef>
-</PawnBioDefs>
+
+<AlienRace.PawnBioDef>
+    <defName>RaccPhelps_X</defName>
+    <childhoodDef>RaccPhelpsKid</childhoodDef> 
+    <adulthoodDef>RaccPhelps</adulthoodDef>
+    <gender>Male</gender>
+    <name>
+      <first>Cole</first>
+      <last>Phelps</last>
+      <nick>Phelps</nick>
+    </name>
+    <validRaces>
+          <li>Alien_Racc</li>
+    </validRaces>
+    <factionLeader>false</factionLeader>
+</AlienRace.PawnBioDef>
+</Defs>

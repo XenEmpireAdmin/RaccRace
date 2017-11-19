@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DefPackage-TraderKindDef>
+<Defs>
 
   <TraderKindDef>
     <defName>Visitor_Racc_Standard</defName>
@@ -79,4 +79,4 @@
   
 
 
-</DefPackage-TraderKindDef>
+</Defs>

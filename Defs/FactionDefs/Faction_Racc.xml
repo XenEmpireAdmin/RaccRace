@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
 
   <FactionDef>
 		<defName>RaccEmpire</defName>
@@ -9,7 +9,6 @@
     <baseSelectionWeight>.75</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
-    <raidCommonality>100</raidCommonality>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Archivist</leaderTitle>
@@ -29,7 +28,7 @@
       <max>0</max>
     </naturalColonyGoodwill>
     <visitorTraderKinds>
-      <li>Visitor_Racc_Standard</li>
+      <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>
    <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
@@ -89,4 +88,4 @@
 	<expandingIconTexture>World/RaccBaseIcon</expandingIconTexture>
   </FactionDef>
 
-</FactionDefs>
+</Defs>

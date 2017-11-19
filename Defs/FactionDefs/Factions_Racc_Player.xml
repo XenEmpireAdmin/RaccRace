@@ -14,7 +14,9 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Racc</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
+		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
+		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
     <techLevel>Ultra</techLevel>
     <backstoryCategory>RaccBackstory</backstoryCategory>
     <homeIconPath>World/RaccBaseIcon</homeIconPath>
@@ -39,7 +41,9 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Racc</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
+		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
+		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
     <techLevel>Ultra</techLevel>
     <backstoryCategory>RaccBackstory</backstoryCategory>
     <homeIconPath>World/RaccBaseIcon</homeIconPath>

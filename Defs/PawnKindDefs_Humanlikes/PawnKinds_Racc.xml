@@ -40,7 +40,7 @@
     </weaponMoney>
     <weaponTags>
       <li>Gun</li>
-      <li>Melee</li>
+      <li>NonNeolithicOnlyMelee</li>
 	  <li>AdvancedGun</li>
     </weaponTags>
     <techHediffsMoney>
@@ -352,7 +352,7 @@
 	  <li>SniperRifle</li>
 	  <li>EliteGun</li>
       <li>AdvancedGun</li>
-      <li>Melee</li>
+      <li>NonNeolithicOnlyMelee</li>
     </weaponTags>
     <techHediffsMoney>
       <min>2000</min>

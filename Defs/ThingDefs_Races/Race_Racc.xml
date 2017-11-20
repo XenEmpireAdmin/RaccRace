@@ -373,8 +373,12 @@
           <def>ElderStageRacc</def>
           <minAge>250</minAge>
         </li>
-        <li>
+          <li>
           <def>AncestorStageRacc</def>
+          <minAge>625</minAge>
+        </li>
+        <li>
+          <def>ProgenitorStageRacc</def>
           <minAge>1000</minAge>
         </li>
       </lifeStageAges>

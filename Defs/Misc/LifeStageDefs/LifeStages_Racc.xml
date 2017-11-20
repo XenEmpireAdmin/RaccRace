@@ -53,4 +53,11 @@
     <reproductive>true</reproductive>
   </LifeStageDef>
 
+    <LifeStageDef>
+    <defName>ProgenitorStageRacc</defName>
+    <label>progenitor</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
+
 </Defs>

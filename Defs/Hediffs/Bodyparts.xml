@@ -6,8 +6,8 @@
     <label>bionic Racc tail</label>
     <spawnThingOnRemoved>BionicRaccTail</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      <betterThanNatural>true</betterThanNatural>
+      <solid>true</solid>
       <partEfficiency>1.2</partEfficiency>
     </addedPartProps>
     <stages>
@@ -30,7 +30,7 @@
     <defName>ClothTail</defName>
     <label>cloth tail</label>
     <addedPartProps>
-      <isSolid>true</isSolid>
+      <solid>true</solid>
       <partEfficiency>0.6</partEfficiency>
     </addedPartProps>
   </HediffDef>

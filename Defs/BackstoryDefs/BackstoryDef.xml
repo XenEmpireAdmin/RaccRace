@@ -5,7 +5,7 @@
     <defName>RaccSpyKid</defName>
     <title>Young agent</title>
 	<titleShort>Kid-agent</titleShort>
-    <baseDescription>NAME was born in one of the many training facilities devoted to producing espionage and intelligence operatives. HIS formative years were occupied with many of the usual mundane types of education, but augmented with courses on observation and combat.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was born in one of the many training facilities devoted to producing espionage and intelligence operatives. [PAWN_possessive] formative years were occupied with many of the usual mundane types of education, but augmented with courses on observation and combat.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -29,7 +29,7 @@
         <amount>4</amount>
       </li>
 	    <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -40,7 +40,7 @@
     <defName>RaccToughkid</defName>
     <title>Tough-kid</title>
 	<titleShort>Tough-kid</titleShort>
-    <baseDescription>NAME grew faster than HIS young peers, but HECAP was a 'gentle giant' of sorts, using HIS strength to protect HIS friends from bullies.</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew faster than [PAWN_possessive] young peers, but [PAWN_pronoun] was a 'gentle giant' of sorts, using [PAWN_possessive] strength to protect [PAWN_possessive] friends from bullies.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -59,7 +59,7 @@
         <amount>4</amount>
       </li>
 	   <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>2</amount>
       </li>
       <li>
@@ -74,7 +74,7 @@
     <defName>RaccOpEng</defName>
     <title>Operating engineer</title>
 	<titleShort>Op-Engineer</titleShort>
-    <baseDescription>NAME operated heavy machinery for construction. HECAP loved moving and shaping the terrain with HIS big dozer, or using a Blade-rig to carve out a level field for building. This also translated over to HIS hobbies, as HECAP also loved tilling the soil and creating HIS home garden.</baseDescription>
+    <baseDescription>[PAWN_nameDef] operated heavy machinery for construction. [PAWN_pronoun] loved moving and shaping the terrain with [PAWN_possessive] big dozer, or using a Blade-rig to carve out a level field for building. This also translated over to [PAWN_possessive] hobbies, as [PAWN_pronoun] also loved tilling the soil and creating [PAWN_possessive] home garden.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>RaccBackstory</li>
@@ -94,7 +94,7 @@
         <amount>4</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -104,7 +104,7 @@
     <defName>RaccFactoryW</defName>
     <title>Factory worker</title>
 	<titleShort>Canner</titleShort>
-    <baseDescription>NAME worked in a cannery, working quality assurance on an assembly line. HECAP was vigilant in HIS duties, and had nimble hands, making sure no unsatisfactory product made it past HIS station.</baseDescription>
+    <baseDescription>[PAWN_nameDef] worked in a cannery, working quality assurance on an assembly line. [PAWN_pronoun] was vigilant in [PAWN_possessive] duties, and had nimble hands, making sure no unsatisfactory product made it past [PAWN_possessive] station.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>RaccBackstory</li>
@@ -130,7 +130,7 @@
     <defName>RaccEngineer</defName>
     <title>Racc mechanic</title>
 	<titleShort>Greasehead</titleShort>
-    <baseDescription>NAME worked with HIS father, running an old Auto-repair shop in a dusty frontier town. How HECAP ended up here is a mystery...</baseDescription>
+    <baseDescription>[PAWN_nameDef] worked with [PAWN_possessive] father, running an old Auto-repair shop in a dusty frontier town. How [PAWN_pronoun] ended up here is a mystery...</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>RaccBackstory</li>
@@ -156,7 +156,7 @@
     <defName>RaccSpyTwo</defName>
     <title>Racc agent</title>
 	<titleShort>R-Agent</titleShort>
-    <baseDescription>NAME was a loyal intelligence agent for HIS government, but HIS cover was blown by an enemy operation. Now HECAP is on 'early retirement', but HIS skills haven't dulled a bit.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a loyal intelligence agent for [PAWN_possessive] government, but [PAWN_possessive] cover was blown by an enemy operation. Now [PAWN_pronoun] is on 'early retirement', but [PAWN_possessive] skills haven't dulled a bit.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>RaccBackstory</li>
@@ -190,7 +190,7 @@
     <defName>RaccCuriouskid</defName>
     <title>Natural spy</title>
 	<titleShort>Spy-kid</titleShort>
-    <baseDescription>NAME was BORN to be a spy. HECAP spent HIS childhood playing spy games, and learning everything there was to know about espionage. HECAP idolized Jim Bundo, and Rock Flint, the spy-movie superstar characters.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was BORN to be a spy. [PAWN_pronoun] spent [PAWN_possessive] childhood playing spy games, and learning everything there was to know about espionage. [PAWN_pronoun] idolized Jim Bundo, and Rock Flint, the spy-movie superstar characters.</baseDescription>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>RaccBackstory</li>
@@ -224,7 +224,7 @@
     <defName>RaccSpacer</defName>
     <title>Racc spacer</title>
     <titleShort>Rocket</titleShort>
-    <baseDescription>NAME grew up working on HIS parents' space hotel. It was an old abandoned orbital science facility that had been converted over to cater to a space-loving wealthy clientele. A sudden meteor shower brought it all to an abrupt end one day though - luckily enough, everyone made it to the escape pods...</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew up working on [PAWN_possessive] parents' space hotel. It was an old abandoned orbital science facility that had been converted over to cater to a space-loving wealthy clientele. A sudden meteor shower brought it all to an abrupt end one day though - luckily enough, everyone made it to the escape pods...</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -253,7 +253,7 @@
     <defName>RaccSticky</defName>
     <title>Stickyfingers</title>
     <titleShort>Stickyfingers</titleShort>
-    <baseDescription>If something was missing, it was probably NAME. Ever since HECAP could crawl, HECAP was getting into everything, and secreting things away in all kinds of little cubbyholes. A very sneaky and clever one here.</baseDescription>
+    <baseDescription>If something was missing, it was probably [PAWN_nameDef]. Ever since [PAWN_pronoun] could crawl, [PAWN_pronoun] was getting into everything, and secreting things away in all kinds of little cubbyholes. A very sneaky and clever one here.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>20</maleCommonality>
@@ -289,7 +289,7 @@
     <defName>RaccColonyKid</defName>
     <title>Racc colonykid</title>
     <titleShort>Kid</titleShort>
-    <baseDescription>NAME was born in a small trading post on the outer rims. HECAP had to learn to carry HIS weight and keep the colony running from an early age.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was born in a small trading post on the outer rims. [PAWN_pronoun] had to learn to carry [PAWN_possessive] weight and keep the colony running from an early age.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -305,7 +305,7 @@
         <amount>1</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>2</amount>
       </li>
     </skillGains>
@@ -318,7 +318,7 @@
     <defName>RaccCoreKid</defName>
     <title>Racc corekid</title>
     <titleShort>Corekid</titleShort>
-    <baseDescription>NAME was born on one of the core ecumenopolis in the Xenn Empire, not entirely uncommon, as the races have been long-time allies. HECAP grew up in one of the many arcologies, spending much of HIS time in the upper-level arboretums playing with friends.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was born on one of the core ecumenopolis in the Xenn Empire, not entirely uncommon, as the races have been long-time allies. [PAWN_pronoun] grew up in one of the many arcologies, spending much of [PAWN_possessive] time in the upper-level arboretums playing with friends.</baseDescription>
     <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
 		<maleCommonality>90</maleCommonality>
@@ -330,7 +330,7 @@
         <amount>2</amount>
       </li>
 	  <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -344,13 +344,13 @@
     <defName>RaccDigKid</defName>
     <title>Sandbox kid</title>
     <titleShort>Sand-kid</titleShort>
-    <baseDescription>NAME was always playing in the sandbox, or making sandcastles at the beach. This grew into a love for building and gardening, that HIS parents encouraged.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was always playing in the sandbox, or making sandcastles at the beach. This grew into a love for building and gardening, that [PAWN_possessive] parents encouraged.</baseDescription>
 	<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
 	<slot>Childhood</slot>
     <skillGains>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
 	  <li>
@@ -367,7 +367,7 @@
     <defName>RaccCityKid</defName>
     <title>City kid</title>
     <titleShort>Urb-kid</titleShort>
-    <baseDescription>NAME grew up in one of the megalopolis centers on a dense Urbworld. After school, HECAP would head off to one of the metro malls or arcades. Growing up in a concrete landscape, left HIM a bit lacking when it comes to plants and animals.</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew up in one of the megalopolis centers on a dense Urbworld. After school, [PAWN_pronoun] would head off to one of the metro malls or arcades. Growing up in a concrete landscape, left [PAWN_pronoun] a bit lacking when it comes to plants and animals.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -387,7 +387,7 @@
         <amount>2</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>-1</amount>
       </li>
     </skillGains>
@@ -400,7 +400,7 @@
     <defName>RaccCountryKid</defName>
     <title>Farm kid</title>
     <titleShort>Farm-kid</titleShort>
-    <baseDescription>NAME grew up in an ag region, supporting the major metropolises food supply on HIS Rimworld. Living so far from other young people made social life difficult, but NAME made the best of it - though HECAP ended up a bit shy.</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew up in an ag region, supporting the major metropolises food supply on [PAWN_possessive] Rimworld. Living so far from other young people made social life difficult, but [PAWN_nameDef] made the best of it - though [PAWN_pronoun] ended up a bit shy.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -420,7 +420,7 @@
         <amount>2</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>5</amount>
       </li>
           <li>
@@ -437,7 +437,7 @@
     <defName>RaccGeniusKid</defName>
     <title>Young genius</title>
     <titleShort>Prodigy</titleShort>
-    <baseDescription>NAME loved tinkering with HIS toys, taking them apart and reassembling them - programming simple little computer programs from HIS elementary school textbooks - or simply reading any piece of information HECAP can get HIS hands on.</baseDescription>
+    <baseDescription>[PAWN_nameDef] loved tinkering with [PAWN_possessive] toys, taking them apart and reassembling them - programming simple little computer programs from [PAWN_possessive] elementary school textbooks - or simply reading any piece of information [PAWN_pronoun] can get [PAWN_possessive] hands on.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -457,7 +457,7 @@
         <amount>4</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>5</amount>
       </li>
          <li>
@@ -478,7 +478,7 @@
     <defName>RaccGunmaker</defName>
     <title>Gunsmith</title>
     <titleShort>Gunsmith</titleShort>
-    <baseDescription>NAME was interested in guns and firearms of all kinds from a young age. HIS interest developed into a passion, and HECAP became one of the foremost independant weapons designers of the allied races.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was interested in guns and firearms of all kinds from a young age. [PAWN_possessive] interest developed into a passion, and [PAWN_pronoun] became one of the foremost independant weapons designers of the allied races.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -503,7 +503,7 @@
     <defName>RaccSexSlave</defName>
     <title>Consort</title>
     <titleShort>Consort</titleShort>
-    <baseDescription>NAME was captured by slavers and sold to a lecherous tycoon. HECAP was forced to tend the gardens, and do all sorts of lewd acts for HIS 'owner', but grew accustomed to the otherwise lavish environment, and spoiled as far as labor is concerned.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was captured by slavers and sold to a lecherous tycoon. [PAWN_pronoun] was forced to tend the gardens, and do all sorts of lewd acts for [PAWN_possessive] 'owner', but grew accustomed to the otherwise lavish environment, and spoiled as far as labor is concerned.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>10</maleCommonality>
@@ -519,7 +519,7 @@
         <amount>5</amount>
         </li>
 	     <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -532,7 +532,7 @@
     <defName>RaccLasminer</defName>
     <title>Racc lasminer</title>
     <titleShort>Lasminer</titleShort>
-    <baseDescription>NAME operated a laser-mining rig at an advanced asteroidal mining station, and occasionally operated manual equipment when they'd pumped atmosphere into a particularly rich shaft. HECAP developed a strong back and keen eye with HIS laser-drill.</baseDescription>
+    <baseDescription>[PAWN_nameDef] operated a laser-mining rig at an advanced asteroidal mining station, and occasionally operated manual equipment when they'd pumped atmosphere into a particularly rich shaft. [PAWN_pronoun] developed a strong back and keen eye with [PAWN_possessive] laser-drill.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>30</maleCommonality>
@@ -557,7 +557,7 @@
     <defName>RaccBiogen</defName>
     <title>Geneticist</title>
     <titleShort>Geneticist</titleShort>
-    <baseDescription>NAME is a bio-Intellectualer for the Xenn Empire. HECAP has dedicated HIS life to unravelling the genome and improving HIS race, and the quality of life for the Alliance... FOR SCIENCE!!!</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a bio-Intellectualer for the Xenn Empire. [PAWN_pronoun] has dedicated [PAWN_possessive] life to unravelling the genome and improving [PAWN_possessive] race, and the quality of life for the Alliance... FOR SCIENCE!!!</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>20</femaleCommonality>
@@ -581,7 +581,7 @@
     <defName>RaccHunterBS</defName>
     <title>Racc hunter</title>
     <titleShort>Hunter</titleShort>
-    <baseDescription>NAME is a professional hunter. Sometimes called to put down manhunters, or guide rich dentists on Safari, HIS skills as a tracker are only matched by HIS skill at handling.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a professional hunter. Sometimes called to put down manhunters, or guide rich dentists on Safari, [PAWN_possessive] skills as a tracker are only matched by [PAWN_possessive] skill at handling.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>25</maleCommonality>
@@ -611,7 +611,7 @@
     <defName>RaccFarmer</defName>
     <title>Turbofarmer</title>
     <titleShort>Turbofarmer</titleShort>
-    <baseDescription>NAME managed a ranch that grew large quantities of feed-stock for Xenguana. HECAP was on HIS way to a big ag-conference on the nearby moon, when pirates attacked the shuttle! Luckily, the law intervened, but not before the shuttle had taken serious damage, forcing everyone to abandon ship and make for the escape pods...</baseDescription>
+    <baseDescription>[PAWN_nameDef] managed a ranch that grew large quantities of feed-stock for Xenguana. [PAWN_pronoun] was on [PAWN_possessive] way to a big ag-conference on the nearby moon, when pirates attacked the shuttle! Luckily, the law intervened, but not before the shuttle had taken serious damage, forcing everyone to abandon ship and make for the escape pods...</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -636,7 +636,7 @@
     <defName>RaccTrailblazer</defName>
     <title>Trail blazer</title>
     <titleShort>Blazer</titleShort>
-    <baseDescription>NAME is at the forefront of the effort to expand the territories controlled by the Alliance - rushing headlong into the unknown to colonize uncharted worlds and eke out a living.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is at the forefront of the effort to expand the territories controlled by the Alliance - rushing headlong into the unknown to colonize uncharted worlds and eke out a living.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>30</maleCommonality>
@@ -648,7 +648,7 @@
         <amount>3</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>3</amount>
       </li>
       <li>
@@ -666,7 +666,7 @@
     <defName>RaccResearch</defName>
     <title>Intel research</title>
     <titleShort>Research</titleShort>
-    <baseDescription>NAME was head of research in the headquarters for the Racc Intelligence Service, investigating and untangling the webs of lies surrounding enemy agents. HECAP even helped to uncover an enemy mole, (not a gofer) who was compromising agents in the field.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was head of research in the headquarters for the Racc Intelligence Service, investigating and untangling the webs of lies surrounding enemy agents. [PAWN_pronoun] even helped to uncover an enemy mole, (not a gofer) who was compromising agents in the field.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -695,7 +695,7 @@
     <defName>RaccDoctor</defName>
     <title>Frontier doctor</title>
     <titleShort>Doc</titleShort>
-    <baseDescription>NAME has taken an oath to devote HIS life to healing others. HECAP has taken HIS mission out to the furthest reaches and the dustiest outposts. You know... places like this...</baseDescription>
+    <baseDescription>[PAWN_nameDef] has taken an oath to devote [PAWN_possessive] life to healing others. [PAWN_pronoun] has taken [PAWN_possessive] mission out to the furthest reaches and the dustiest outposts. You know... places like this...</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>25</maleCommonality>
@@ -716,7 +716,7 @@
     <defName>RaccChef</defName>
     <title>Racc line-cook</title>
     <titleShort>Line-cook</titleShort>
-    <baseDescription>NAME is a line-cook, a cook working under a master chef in a big kitchen. HECAP has helped prepare meals for some of the highest functionaries in Racc and Xenn society.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a line-cook, a cook working under a master chef in a big kitchen. [PAWN_pronoun] has helped prepare meals for some of the highest functionaries in Racc and Xenn society.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>30</maleCommonality>
@@ -737,7 +737,7 @@
     <defName>RaccArchivist</defName>
     <title>Racc archivist</title>
     <titleShort>Alpha</titleShort>
-    <baseDescription>NAME bears the burden of leadership among HIS community. Racc are a curious and somewhat furtive race, this leads them to collectively horde knowledge. So much so, that their Leaders are called "Archivists", and they serve this function as well as governmental administration. Among HIS peers, NAME is that leader.</baseDescription>
+    <baseDescription>[PAWN_nameDef] bears the burden of leadership among [PAWN_possessive] community. Racc are a curious and somewhat furtive race, this leads them to collectively horde knowledge. So much so, that their Leaders are called "Archivists", and they serve this function as well as governmental administration. Among [PAWN_possessive] peers, [PAWN_nameDef] is that leader.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -766,7 +766,7 @@
     <defName>PrivateRacc</defName>
     <title>Courier agent</title>
     <titleShort>Courier</titleShort>
-    <baseDescription>NAME is a low-ranking courier agent for the Racc intelligence. It is HIS duty to deliver small items and packages, or information, wherever HIS superiors order.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a low-ranking courier agent for the Racc intelligence. It is [PAWN_possessive] duty to deliver small items and packages, or information, wherever [PAWN_possessive] superiors order.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>30</maleCommonality>
@@ -791,7 +791,7 @@
     <defName>MajorRacc</defName>
     <title>Racc scalphunter</title>
     <titleShort>Scalphunter</titleShort>
-    <baseDescription>NAME is a 'scalphunter' for racc intelligence. HECAP does the 'dirty work' - spotting, seducing, and 'disposing of' enemy agents. Charming, but deadly.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a 'scalphunter' for racc intelligence. [PAWN_pronoun] does the 'dirty work' - spotting, seducing, and 'disposing of' enemy agents. Charming, but deadly.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>20</maleCommonality>
@@ -820,7 +820,7 @@
     <defName>RaccSpacerAdult</defName>
     <title>Racc space-trader</title>
     <titleShort>R-Spacer</titleShort>
-    <baseDescription>NAME was a free-trader, roving the Racc Empire and it's neighbors space searching for deals and opportunities for profit. Until now, HE was flying a ship, making deals with colonies like these... I wonder what happened?</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a free-trader, roving the Racc Empire and it's neighbors space searching for deals and opportunities for profit. Until now, HE was flying a ship, making deals with colonies like these... I wonder what happened?</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -850,7 +850,7 @@
     <defName>RaccRocket</defName>
     <title>Rocketeer</title>
     <titleShort>Rocket</titleShort>
-    <baseDescription>NAME was one of an experimental corps of rocket-troops. The troops performed well, but problems with the rocket cooling systems, and more than a few scorched tails, led to the abandonment of the project, but HECAP will never forget the feeling of flying with nothing but a self-stabilizing rocket strapped to HIS back!</baseDescription>
+    <baseDescription>[PAWN_nameDef] was one of an experimental corps of rocket-troops. The troops performed well, but problems with the rocket cooling systems, and more than a few scorched tails, led to the abandonment of the project, but [PAWN_pronoun] will never forget the feeling of flying with nothing but a self-stabilizing rocket strapped to [PAWN_possessive] back!</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>28</maleCommonality>
@@ -883,7 +883,7 @@
     <defName>RaccNinja</defName>
     <title>Racc ninja</title>
     <titleShort>Ninja</titleShort>
-    <baseDescription>NAME is among the few master practitioners of ninjitsu, and various forms of budo - and has used these skills in loyal service to HIS lord for many years.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is among the few master practitioners of ninjitsu, and various forms of budo - and has used these skills in loyal service to [PAWN_possessive] lord for many years.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>28</maleCommonality>
@@ -917,7 +917,7 @@
     <defName>RaccTerminator</defName>
     <title>Exterminator</title>
     <titleShort>Exterminator</titleShort>
-    <baseDescription>NAME HAAATES bugs! HECAP has made a living out of killing as many bugs as HECAP can! Infestation? LEMME AT EM!</baseDescription>
+    <baseDescription>[PAWN_nameDef] HAAATES bugs! [PAWN_pronoun] has made a living out of killing as many bugs as [PAWN_pronoun] can! Infestation? LEMME AT EM!</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>10</maleCommonality>
@@ -950,7 +950,7 @@
     <defName>RaccSpyBS</defName>
     <title>Retired spymaster</title>
     <titleShort>Control</titleShort>
-    <baseDescription>NAME was the head director, 'control', for the racc intelligence agency. What strange chain of events led this mysterious figure here?..... I wonder...</baseDescription>
+    <baseDescription>[PAWN_nameDef] was the head director, 'control', for the racc intelligence agency. What strange chain of events led this mysterious figure here?..... I wonder...</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>10</maleCommonality>
@@ -979,7 +979,7 @@
     <defName>RaccTXRanger</defName>
     <title>Forest ranger</title>
     <titleShort>Forester</titleShort>
-    <baseDescription>NAME was a forest ranger in the high mountains. HECAP loves the smell of fresh mountain air, and a big pine forest. Over the years, HECAP has gained a good skill for scouting, and dealing with wild animals, not to mention havng to fend off poachers.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a forest ranger in the high mountains. [PAWN_pronoun] loves the smell of fresh mountain air, and a big pine forest. Over the years, [PAWN_pronoun] has gained a good skill for scouting, and dealing with wild animals, not to mention havng to fend off poachers.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>8</maleCommonality>
@@ -1009,7 +1009,7 @@
     <defName>RaccNavyCook</defName>
     <title>Famous theif</title>
     <titleShort>Theif</titleShort>
-    <baseDescription>NAME was a skilled catbuglar, pinching valuables from the homes of the rich. HECAP loved to pick targets who were particularly vain or arrogant, to strip them of a little pride, as well as their money. Somehow, while evading the law, HECAP ended up here...</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a skilled catbuglar, pinching valuables from the homes of the rich. [PAWN_pronoun] loved to pick targets who were particularly vain or arrogant, to strip them of a little pride, as well as their money. Somehow, while evading the law, [PAWN_pronoun] ended up here...</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>25</maleCommonality>
@@ -1038,7 +1038,7 @@
     <defName>RaccProgrammer</defName>
     <title>Racc programmer</title>
     <titleShort>Programmer</titleShort>
-    <baseDescription>NAME has spent many sleepless nights hammering away at a console (not literally with a hammer - though sometimes HECAP wanted to). This allowed HIM to fund HIS second passion... Firearms. HECAP would vent HIS frustrations at the shooting range as often as HECAP could.</baseDescription>
+    <baseDescription>[PAWN_nameDef] has spent many sleepless nights hammering away at a console (not literally with a hammer - though sometimes [PAWN_pronoun] wanted to). This allowed [PAWN_pronoun] to fund [PAWN_possessive] second passion... Firearms. [PAWN_pronoun] would vent [PAWN_possessive] frustrations at the shooting range as often as [PAWN_pronoun] could.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 		<maleCommonality>30</maleCommonality>
@@ -1064,7 +1064,7 @@
     <defName>Raccmechw</defName>
     <title>Mech pilot</title>
     <titleShort>Mechwarrior</titleShort>
-    <baseDescription>NAME is a Battlemech pilot, a Mech Warrior. Operating these massive walking tanks, MechWarriors serve in the armies of the Great Houses or as part of a Mercenary unit, fight in the gladiatorial arenas of Solaris VII, or operate on the fringes of society as pirates and bandits. Among the Clans, a MechWarrior can either be trueborn or freeborn, with the former enjoying greater social standing.
+    <baseDescription>[PAWN_nameDef] is a Battlemech pilot, a Mech Warrior. Operating these massive walking tanks, MechWarriors serve in the armies of the Great Houses or as part of a Mercenary unit, fight in the gladiatorial arenas of Solaris VII, or operate on the fringes of society as pirates and bandits. Among the Clans, a MechWarrior can either be trueborn or freeborn, with the former enjoying greater social standing.
     The jumpship HE was on had a jump-drive failure, casting them off into the unknown. After waiting several weeks for rescue, with supplies running low, the crew decided to use the escape pods at the nearest habitable planet...
     </baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
@@ -1091,7 +1091,7 @@
     <defName>RaccXRestar</defName>
     <title>Restaurateur</title>
     <titleShort>Restaurateur</titleShort>
-    <baseDescription>NAME owned and operated a chain of successful high-class urbworld restaurants. Unfortunately, they didn't survive the franchise wars against Taco Gong, and HECAP was forced to flee the planet.</baseDescription>
+    <baseDescription>[PAWN_nameDef] owned and operated a chain of successful high-class urbworld restaurants. Unfortunately, they didn't survive the franchise wars against Taco Gong, and [PAWN_pronoun] was forced to flee the planet.</baseDescription>
   	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <bodyTypeGlobal>Fat</bodyTypeGlobal>

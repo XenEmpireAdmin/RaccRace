@@ -6,10 +6,12 @@
   <PawnKindDef Name="RaccBase" Abstract="True">
     <defaultFactionType>RaccEmpire</defaultFactionType>
     <race>Alien_Racc</race>
-	<backstoryCategory>RaccBackstory</backstoryCategory>
+	<backstoryCategories>
+			<li>RaccBackstory</li>
+  	</backstoryCategories>
     <chemicalAddictionChance>0.005</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
       <li>Outlander</li>
 	  <li>Military</li>
@@ -178,6 +180,8 @@
     </weaponMoney>
     <weaponTags>
 	  <li>EliteGun</li>
+    <li>SniperRifle</li>
+	  <li>AdvancedGun</li>
     </weaponTags>
     <techHediffsMoney>
       <min>1000</min>
@@ -194,7 +198,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -261,7 +265,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -316,7 +320,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>
@@ -373,7 +377,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>

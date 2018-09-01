@@ -14,7 +14,9 @@
     <defName>Racc</defName>
     <label>colonist</label>
     <defaultFactionType>RaccPlayerColony</defaultFactionType>
-    <backstoryCategory>RaccBackstory</backstoryCategory>
+    <backstoryCategories>
+			<li>RaccBackstory</li>
+  	</backstoryCategories>
     <apparelTags>
       <li>Spacer</li>
     </apparelTags>

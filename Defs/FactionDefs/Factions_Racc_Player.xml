@@ -14,11 +14,13 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Racc</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
-		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
-		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
     <techLevel>Ultra</techLevel>
-    <backstoryCategory>RaccBackstory</backstoryCategory>
+    <backstoryCategories>
+			<li>RaccBackstory</li>
+  	</backstoryCategories>
     <homeIconPath>World/RaccBaseIcon</homeIconPath>
     <expandingIconTexture>World/RaccBaseIcon</expandingIconTexture>
     <startingResearchTags>
@@ -41,11 +43,13 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Racc</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
-		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
-		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <techLevel>Ultra</techLevel>
-    <backstoryCategory>RaccBackstory</backstoryCategory>
+    <backstoryCategories>
+			<li>RaccBackstory</li>
+  	</backstoryCategories>
     <homeIconPath>World/RaccBaseIcon</homeIconPath>
     <expandingIconTexture>World/RaccBaseIcon</expandingIconTexture>
     <startingResearchTags>

@@ -7,6 +7,7 @@
     <description>A colony of the clever Racc race.</description>
     <pawnsPlural>Racc</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
@@ -61,6 +62,16 @@
           <RaccArchivist>250</RaccArchivist>
           <RaccTheif>100</RaccTheif>
           <RaccHunter>130</RaccHunter>
+          <RaccSpy>130</RaccSpy>
+          <RaccNinja>170</RaccNinja>
+        </options>
+      </li>
+           <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <RaccColonist>50</RaccColonist>
+          <RaccSecurityGuard>90</RaccSecurityGuard>
+          <RaccArchivist>250</RaccArchivist>
           <RaccSpy>130</RaccSpy>
           <RaccNinja>170</RaccNinja>
         </options>

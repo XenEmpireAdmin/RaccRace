@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+
+<AlienRace.RaceSettings>
+    <defName>Racc_Settings</defName>
+     <pawnKindSettings>
+            <alienslavekinds>
+                <li>
+                    <kindDefs>
+                        <li>RaccSlave</li>
+                    </kindDefs>
+                    <chance>40.0</chance>
+                </li>
+            </alienslavekinds>
+            <alienrefugeekinds>
+                <li>
+                    <kindDefs>
+                        <li>RaccRefugee</li>
+                    </kindDefs>
+                    <chance>50.0</chance>
+                </li>
+            </alienrefugeekinds>
+			<startingColonists>
+				<li>
+				<pawnKindEntries>
+					<li>
+                    <kindDefs>
+                        <li>RaccHunter</li>
+						<li>RaccSpy</li>
+						<li>RaccNinja</li>
+						<li>RaccColonist</li>
+                    </kindDefs>
+                    <chance>10.0</chance>
+					</li>
+				</pawnKindEntries>
+					<factionDefs>
+						<li>RaccPlayerColony</li> 
+					</factionDefs>
+				</li>
+			</startingColonists>
+            <alienwandererkinds>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>RaccHunter</li>
+								<li>RaccSpy</li>
+								<li>RaccColonist</li>
+								<li>RaccNinja</li>
+								<li>RaccArchivist</li>
+								<li>RaccTheif</li>
+                            </kindDefs>
+                            <chance>50.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>RaccPlayerColony</li> 
+                    </factionDefs>
+                </li>
+            </alienwandererkinds>
+        </pawnKindSettings>
+  </AlienRace.RaceSettings>
+
+
 <ThingDef Name="BaseRaccPawn" Abstract="True">
     <thingClass>Pawn</thingClass>
     <category>Pawn</category>
@@ -255,14 +318,14 @@
     </statBases>
     <verbs>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+        <verbClass>Verb_MeleeAttackDamage</verbClass>
         <defaultCooldownTime>1.45</defaultCooldownTime>
         <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
+        <verbClass>Verb_MeleeAttackDamage</verbClass>
         <defaultCooldownTime>1.45</defaultCooldownTime>
         <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>

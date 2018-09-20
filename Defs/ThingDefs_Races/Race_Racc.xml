@@ -316,22 +316,63 @@
        <AnimalGatherSpeed>1.1</AnimalGatherSpeed>
        <AnimalGatherYield>1.1</AnimalGatherYield>
     </statBases>
-    <verbs>
+        <tools>
       <li>
-        <verbClass>Verb_MeleeAttackDamage</verbClass>
-        <defaultCooldownTime>1.45</defaultCooldownTime>
-        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttackDamage</verbClass>
-        <defaultCooldownTime>1.45</defaultCooldownTime>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
-    </verbs>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
     <race>
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>

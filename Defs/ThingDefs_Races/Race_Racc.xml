@@ -272,6 +272,7 @@
             </alienPartGenerator>
 			<chemicalSettings>	
 		    </chemicalSettings>
+            <humanRecipeImport>true</humanRecipeImport>
         </generalSettings>
         <graphicPaths>
             <li>

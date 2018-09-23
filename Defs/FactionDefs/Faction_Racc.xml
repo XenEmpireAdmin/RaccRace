@@ -22,9 +22,12 @@
   <backstoryCategories>
 			<li>RaccBackstory</li>
   	</backstoryCategories>
-			<hairTags>
-			<li>RaccHair</li>
-			</hairTags>
+		<hairTags>
+			<li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li>
+		</hairTags>
     <naturalColonyGoodwill>
       <min>-60</min>
       <max>0</max>
